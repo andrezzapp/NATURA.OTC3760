@@ -77,6 +77,160 @@
             "env": {
                 "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
             }
+        },
+        {
+            "name": "Start zotc_c_calc_gadv",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_calc_gadv",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brnumenzotcccalcgadv-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zotc_c_calc_gadv Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_calc_gadv",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brnumenzotcccalcgadv-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zotc_c_calc_gadv Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_calc_gadv",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brnumenzotcccalcgadv-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zotc_c_param",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_param",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brnumenzotccparam-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zotc_c_param Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_param",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brnumenzotccparam-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zotc_c_param Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zotc_c_param",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brnumenzotccparam-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=210&sap-ui-xx-viewCache=false"
+            }
         }
     ]
 }
